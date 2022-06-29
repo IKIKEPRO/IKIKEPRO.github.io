@@ -1,0 +1,235 @@
+/*fondo mas navegador */ 
+.header {
+    background: url(../img/natacion-aguas-abiertas-1594887282.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed
+    
+}
+.header .navbar {
+    background-color: transparent !important;
+    
+  }
+
+ul{
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:#101010;
+    font-weight: 1000;
+    
+}
+
+.logoD{
+    padding-top: 5vh;
+}
+
+/*contador*/ 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.title-contador{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+    /* espacio entre el navabar y el titilo del contardor*/
+    margin-top: 0%;
+	text-align: center;
+	color:  black; 
+
+}
+
+/* tamaño titulo*/
+h1 {
+    font-size: calc(1.375rem + 3vw);
+    font-style: italic;
+    font-style: oblique;
+}  
+
+
+.cont-temporizador{
+
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+    margin-top: 15vh;
+	text-align: center;
+    /**/
+    display: flex;
+    justify-content: center;   
+    margin-top: 2vh; 
+    
+}
+  
+.cont-temporizador .bloque{
+    margin: 0px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.cont-temporizador .bloque div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 0px 6px 2px #727272 inset;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100px;
+    height: 70px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+  
+.cont-temporizador .bloque p{
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+}
+.container-fluid{
+    padding: 2%;
+}
+/*contenido y cartas */ 
+
+
+.contenido{
+    background: url(../img/tabas-de-paddle-surf-baratas.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 0%;
+    background-attachment: fixed;
+    justify-content:center;
+}
+/*Cards*/
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+
+	text-align: center;
+	color: white; 
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 50%;
+	height: 210px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+    font-family: 'Titan One', cursive;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #2fb4cc;
+	color: #fff;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
+
+/*footer */ 
+footer{
+    width: 100%;
+    background-color: #202020;
+    color: white;
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container-footer{
+    width: 100%;
+    background: #101010;
+}
+
+.foooter{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
