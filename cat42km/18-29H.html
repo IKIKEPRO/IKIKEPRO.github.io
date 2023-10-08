@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de la Competencia de Running</title>
+    <link rel="stylesheet" href="../assets/css/trail.css">
+    <script src="../assets/javascript/cat13km.js"></script>
+
+</head>
+<body>
+    <main>
+    <h1>TRAIL PAMPA PERDIZ 2023 </h1>
+
+        <!-- Barra de Distancias -->
+        <div class="navbar">
+            <a href="../cat13km/18-29H.html">DISTANCIA 13KM</a>
+            <a href="../cat22km/18-29H.html">DISTANCIA 22KM</a>
+            <a href="../cat42km/18-29H.html" style="background-color: #909732; color: #ffffff;">DISTANCIA 42KM</a>
+            <!-- Agrega más enlaces para otras categorías si es necesario -->
+        </div>
+        <p></p>
+            <!-- Categorías HOMBRES Distancia 42km -->
+            <div class="navbar">
+                <!--<a href="../cat13km/13Kgeneral.html">General</a>-->
+                <a href="../cat42km/18-29H.html" style="background-color: #909732; color: #ffffff;">18-29H </a>
+                <a href="../cat42km/30-39H.html">30-39H</a>
+                <a href="../cat42km/40-49H.html">40-49H</a>
+                <a href="/tracktime1-main/cat13km/50+H.html">50 +H</a>
+            </div>
+
+            <!-- Categorías MUJERES Distancia 42km -->
+            <div class="navbar">
+                <a href="../cat42km/18-29M.html">18-29M </a>
+                <a href="../cat42km/30-39M.html">30-39M</a>
+                <a href="../cat42km/50+M.html">50 +M</a>
+            </div>
+
+        <p id="presiona">Ve tu video en meta <a href="../videos.html" style="font-weight: bold; color: #909732;">aquí</a></p>
+    
+    <!-- Tabla de resultados de todas las categorías -->
+    <table id="categoria-todas">
+        <thead>
+            <tr>
+                <th>Posición</th>
+                <th>Dorsal</th>
+                <th>Nombre del Corredor</th>
+                <th>País</th>
+                <th>Tiempo Total</th>
+                <th>Categoría</th>
+                <th>Video Meta</th>
+            </tr>
+        </thead>
+        <tbody>   <!-- CATEGORÍA 18-29 H -->
+            
+            <!-- Corredor 3 -->
+            <tr class="corredor" onclick="mostrarDetalles(2)"> <!-- NOMBRE 3° -->
+                <td>1</td> <!-- Dejar igual -->
+                <td>208</td> <!-- Colocar número de Numeración -->
+                <td class="nombre-corredor">Víctor Pantoja Castro</td> 
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">8:03:26</td>  <!-- TIEMPO 3° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            <tr class="corredor" onclick="mostrarDetalles(1)"> <!-- NOMBRE 2° -->
+                <td>0</td> <!-- Dejar igual -->
+                <td>207</td> <!-- Colocar número de Numeración -->
+                <td class="nombre-corredor">Álvaro Pérez Villavicencio</td> 
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">-----</td>  <!-- TIEMPO 2° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            </table>
+</body>
+</html>

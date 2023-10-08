@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de la Competencia de Running</title>
+    <link rel="stylesheet" href="../assets/css/trail.css">
+    <script src="../assets/javascript/cat13km.js"></script>
+
+ 
+
+    <!-- 18-29 H -->
+
+</head>
+<body>
+    <main>
+    <h1>TRAIL PAMPA PERDIZ 2023 </h1>
+
+        <!-- Barra de Distancias -->
+        <div class="navbar">
+            <a href="../cat13km/18-29H.html" style="background-color: #909732; color: #ffffff;" >DISTANCIA 13KM</a>
+            <a href="../cat22km/18-29H.html">DISTANCIA 22KM</a>
+            <a href="../cat42km/18-29H.html">DISTANCIA 42KM</a>
+            <!-- Agrega más enlaces para otras categorías si es necesario -->
+        </div>
+        <p></p>
+            <!-- Categorías HOMBRES Distancia 13km -->
+            <div class="navbar">
+                <!--<a href="../cat13km/13Kgeneral.html">General</a>-->
+                <a href="../cat13km/18-29H.html" style="background-color: #909732; color: #ffffff;">18-29H </a>
+                <a href="../cat13km/30-39H.html">30-39H</a>
+                <a href="../cat13km/40-49H.html">40-49H</a>
+                <a href="../cat13km/50+H.html">50 +H</a>
+            </div>
+
+            <!-- Categorías MUJERES Distancia 13km -->
+            <div class="navbar">
+                <a href="../cat13km/18-29M.html">18-29M </a>
+                <a href="../cat13km/30-39M.html">30-39M</a>
+                <a href="../cat13km/40-49M.html">40-49M</a>
+                <a href="../cat13km/50+M.html">50 +M</a>
+            </div>
+
+        <p id="presiona">Ve tu video en meta <a href="../videos.html" style="font-weight: bold; color: #909732;">aquí</a></p>
+    
+    <!-- Tabla de resultados de todas las categorías -->
+    <table id="categoria-todas">
+        <thead>
+            <tr>
+                <th>Posición</th>
+                <th>Dorsal</th>
+                <th>Nombre del Corredor</th>
+                <th>País</th>
+                <th>Tiempo Total</th>
+                <th>Categoría</th>
+                <th>Video Meta</th>
+            </tr>
+        </thead>
+        <tbody>   <!-- CATEGORÍA 18-29 H -->
+            <tr class="corredor"  onclick="mostrarDetalles(0)"> <!-- NOMBRE 1° -->
+                <td>2</td> <!-- POSICION -->
+                <td>1</td> <!-- DORSAL -->
+                <td class="nombre-corredor">Ignacio Andres Vasquez Orellana</td>  <!-- NOMBRE 1° -->
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">1:18:03</td>  <!-- TIEMPO 1° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="corredor" onclick="mostrarDetalles(0)"> <!-- NOMBRE 2° -->
+                <td>1</td>
+                <td>235</td> <!-- Numeración -->
+                <td class="nombre-corredor">Luis Alejandro Tapia Castillo</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">1:12:59</td> <!-- TIEMPO 2° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores -->
+            <tr class="corredor" onclick="mostrarDetalles(2)"> <!-- NOMBRE 3° -->
+                <td>11</td>
+                <td>3</td> <!-- Numeración -->
+                <td class="nombre-corredor">Juan Francisco Ortega Nova</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">1:48:40</td> <!-- TIEMPO 3° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <tr class="corredor" onclick="mostrarDetalles(3)"> <!-- NOMBRE 4° -->
+                <td>17</td>
+                <td>4</td> <!-- Numeración -->
+                <td class="nombre-corredor">Daniel Andres Perez Choque</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">2:45:30</td> <!-- TIEMPO 4° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <tr class="corredor" onclick="mostrarDetalles(4)"> <!-- NOMBRE 5° -->
+                <td>15</td>
+                <td>5</td> <!-- Numeración -->
+                <td class="nombre-corredor">Fernando Aguilera Cornejo</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">2:11:20</td> <!-- TIEMPO 5° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(5)"> <!-- NOMBRE 6° -->
+                <td>18</td>
+                <td>6</td> <!-- Numeración -->
+                <td class="nombre-corredor">Sebastián Andrés Rojas Bravo</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">2:55:10</td> <!-- TIEMPO 6° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr class="corredor" onclick="mostrarDetalles(6)"> <!-- NOMBRE 7° -->
+                <td>5</td> <!-- dorsal -->
+                <td>7</td> <!-- Numeración -->
+                <td class="nombre-corredor">Cesar Vasquez Bustos</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">1:29:20</td> <!-- TIEMPO 7° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(7)"> <!-- NOMBRE 8° -->
+                <td>6</td>
+                <td>8</td> <!-- Numeración -->
+                <td class="nombre-corredor">Ariel Leal Flores</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">1:35:06</td> <!-- TIEMPO 8° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(8)"> <!-- NOMBRE 9° -->
+                <td>16</td>
+                <td>9</td> <!-- Numeración -->
+                <td class="nombre-corredor">Luis Felipe Castro Caqueo</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">2:12:14</td> <!-- TIEMPO 9° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            <tr class="corredor" onclick="mostrarDetalles(8)"> <!-- NOMBRE 9° -->
+                <td>4</td>
+                <td>26</td> <!-- Numeración -->
+                <td class="nombre-corredor">Ignacio Gonzalez</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">1:23:28</td> <!-- TIEMPO 9° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(9)"> <!-- NOMBRE 10° -->
+                <td>3</td>
+                <td>10</td> <!-- Numeración -->
+                <td class="nombre-corredor">Ivan David Contreras Uribe</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">1:23:18</td> <!-- TIEMPO 10° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(10)"> <!-- NOMBRE 11° -->
+                <td>10</td>
+                <td>11</td> <!-- Numeración -->
+                <td class="nombre-corredor">Héctor Ignacio Contreras Torres</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">1:43:54</td> <!-- TIEMPO 11° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(11)"> <!-- NOMBRE 12° -->
+                <td>19</td>
+                <td>12</td> <!-- Numeración -->
+                <td class="nombre-corredor">Vicente Jorquera Valenzuela</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">3:25:20</td> <!-- TIEMPO 12° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(12)"> <!-- NOMBRE 13° -->
+                <td>9</td>
+                <td>13</td> <!-- Numeración -->
+                <td class="nombre-corredor">Willians Gabriel Jaimes Barreta</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">1:38:59</td> <!-- TIEMPO 13° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(13)"> <!-- NOMBRE 14° -->
+                <td>20</td>
+                <td>14</td> <!-- Numeración -->
+                <td class="nombre-corredor">Ariel Mamani</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">3:35:20</td> <!-- TIEMPO 14° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(14)"> <!-- NOMBRE 15° -->
+                <td>7</td>
+                <td>15</td> <!-- Numeración -->
+                <td class="nombre-corredor">Hans Stuckrath Massa</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">1:35:59</td> <!-- TIEMPO 15° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(15)"> <!-- NOMBRE 16° -->
+                <td>21</td>
+                <td>16</td> <!-- Numeración -->
+                <td class="nombre-corredor">Patricio Flores Fernández</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">3:45:20</td> <!-- TIEMPO 16° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(16)"> <!-- NOMBRE 17° -->
+                <td>22</td>
+                <td>17</td> <!-- Numeración -->
+                <td class="nombre-corredor">Marcelo Guerra Araya</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">3:50:15</td> <!-- TIEMPO 17° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(17)"> <!-- NOMBRE 18° -->
+                <td>23</td>
+                <td>18</td> <!-- Numeración -->
+                <td class="nombre-corredor">Felipe Corvalan Molina</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">3:55:20</td> <!-- TIEMPO 18° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(18)"> <!-- NOMBRE 19° -->
+                <td>0</td>
+                <td>19</td> <!-- Numeración -->
+                <td class="nombre-corredor">Pedro Rosas Pizarro</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">-----</td> <!-- TIEMPO 19° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(19)"> <!-- NOMBRE 20° -->
+                <td>0</td>
+                <td>20</td> <!-- Numeración -->
+                <td class="nombre-corredor">Juan Francisco Vera Jiménez</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">-----</td> <!-- TIEMPO 20° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(20)"> <!-- NOMBRE 21° -->
+                <td>12</td>
+                <td>21</td> <!-- Numeración -->
+                <td class="nombre-corredor">Benjamin Merino</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">1:51:42</td> <!-- TIEMPO 21° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(21)"> <!-- NOMBRE 22° -->
+                <td>13</td>
+                <td>22</td> <!-- Numeración -->
+                <td class="nombre-corredor">Pablo Becerra Sepulveda</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">1:53:45</td> <!-- TIEMPO 22° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(22)"> <!-- NOMBRE 23° -->
+                <td>8</td>
+                <td>23</td> <!-- Numeración -->
+                <td class="nombre-corredor">Gonzalo Bernal Ceballos</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">1:37:54</td> <!-- TIEMPO 23° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            <!-- Continúa con los demás corredores siguiendo el mismo patrón -->
+            <!-- Repite este bloque para cada corredor -->
+            
+            <tr class="corredor" onclick="mostrarDetalles(23)"> <!-- NOMBRE 24° -->
+                <td>14</td>
+                <td>24</td> <!-- Numeración -->
+                <td class="nombre-corredor">Cristóbal Klinger Guerra</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">2:07:25</td> <!-- TIEMPO 24° -->
+                <td>18-29 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 18-29 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            </table>
+</body>
+</html>

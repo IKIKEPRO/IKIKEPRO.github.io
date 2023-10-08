@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de la Competencia de Running</title>
+    <link rel="stylesheet" href="../assets/css/trail.css">
+    <script src="../assets/javascript/cat13km.js"></script>
+
+
+</head>
+<body>
+    <main>
+    <h1>TRAIL PAMPA PERDIZ 2023 </h1>
+
+        <!-- Barra de Distancias -->
+        <div class="navbar">
+            <a href="../cat13km/18-29H.html">DISTANCIA 13KM</a>
+            <a href="../cat22km/18-29H.html">DISTANCIA 22KM</a>
+            <a href="../cat42km/18-29H.html" style="background-color: #909732; color: #ffffff;">DISTANCIA 42KM</a>
+            <!-- Agrega más enlaces para otras categorías si es necesario -->
+        </div>
+        <p></p>
+            <!-- Categorías HOMBRES Distancia 42km -->
+            <div class="navbar">
+                <!--<a href="../cat13km/13Kgeneral.html">General</a>-->
+                <a href="../cat42km/18-29H.html">18-29H </a>
+                <a href="../cat42km/30-39H.html">30-39H</a>
+                <a href="../cat42km/40-49H.html" style="background-color: #909732; color: #ffffff;">40-49H</a>
+                <a href="../cat42km/50+H.html">50 +H</a>
+            </div>
+
+            <!-- Categorías MUJERES Distancia 42km -->
+            <div class="navbar">
+                <a href="../cat42km/18-29M.html">18-29M </a>
+                <a href="../cat42km/30-39M.html" >30-39M</a>
+                <a href="../cat42km/50+M.html">50 +M</a>
+            </div>
+
+        <p id="presiona">Ve tu video en meta <a href="../videos.html" style="font-weight: bold; color: #909732;">aquí</a></p>
+    
+    <!-- Tabla de resultados de todas las categorías -->
+    <table id="categoria-todas">
+        <thead>
+            <tr>
+                <th>Posición</th>
+                <th>Dorsal</th>
+                <th>Nombre del Corredor</th>
+                <th>País</th>
+                <th>Tiempo Total</th>
+                <th>Categoría</th>
+                <th>Video Meta</th>
+            </tr>
+        </thead>
+        <tbody>   <!-- CATEGORÍA 18-29 H -->
+            <tr class="corredor" onclick="mostrarDetalles(1)"> <!-- NOMBRE 2° -->
+                <td>3</td> <!-- Dejar igual -->
+                <td>215</td> <!-- Colocar número de Numeración -->
+                <td class="nombre-corredor">Fernando Fuentes Martinez</td> 
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">8:46:15</td>  <!-- TIEMPO 2° -->
+                <td>40-49 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 40-49 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Corredor 3 -->
+            <tr class="corredor" onclick="mostrarDetalles(2)"> <!-- NOMBRE 3° -->
+                <td>2</td> <!-- Dejar igual -->
+                <td>217</td> <!-- Colocar número de Numeración -->
+                <td class="nombre-corredor">Nelson Barrientos Alvarado</td> 
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">8:24:04</td>  <!-- TIEMPO 3° -->
+                <td>40-49 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 40-49 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+        
+            
+            <!-- Corredor 6 -->
+            <tr class="corredor" onclick="mostrarDetalles(5)"> <!-- NOMBRE 6° -->
+                <td>1</td> <!-- Dejar igual -->
+                <td>220</td> <!-- Colocar número de Numeración -->
+                <td class="nombre-corredor">Manuel Cortez Caro</td> 
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">7:09:01</td>  <!-- TIEMPO 6° -->
+                <td>40-49 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 40-49 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Corredor 7 -->
+            <tr class="corredor" onclick="mostrarDetalles(6)"> <!-- NOMBRE 7° -->
+                <td>0</td> <!-- Dejar igual -->
+                <td>221</td> <!-- Colocar número de Numeración -->
+                <td class="nombre-corredor">Jose Fuentes Rodriguez</td> 
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">-----</td>  <!-- TIEMPO 7° -->
+                <td>40-49 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 40-49 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Corredor 8 -->
+            <tr class="corredor" onclick="mostrarDetalles(7)"> <!-- NOMBRE 8° -->
+                <td>0</td> <!-- Dejar igual -->
+                <td>222</td> <!-- Colocar número de Numeración -->
+                <td class="nombre-corredor">Sebastian Adolfo Gomez Reed</td> 
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">-----</td>  <!-- TIEMPO 8° -->
+                <td>40-49 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 40-49 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </tr>
+
+            <!-- Corredor 4 -->
+            <tr class="corredor" onclick="mostrarDetalles(3)"> <!-- NOMBRE 4° -->
+                <td>0</td> <!-- Dejar igual -->
+                <td>218</td> <!-- Colocar número de Numeración -->
+                <td class="nombre-corredor">Jose Pedro Leon</td> 
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">----</td>  <!-- TIEMPO 4° -->
+                <td>40-49 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 40-49 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            
+            <!-- Corredor 5 -->
+            <tr class="corredor" onclick="mostrarDetalles(4)"> <!-- NOMBRE 5° -->
+                <td>0</td> <!-- Dejar igual -->
+                <td>219</td> <!-- Colocar número de Numeración -->
+                <td class="nombre-corredor">Osiel Obreque</td> 
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">-----</td>  <!-- TIEMPO 5° -->
+                <td>40-49 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 40-49 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            </table>
+</body>
+</html>

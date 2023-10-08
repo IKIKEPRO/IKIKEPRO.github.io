@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@media screen and (max-width: 768px) {
+    /* Estilos para pantallas pequeñas */
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --color_text-primary: #0e080f;
+    --color_text-secundary: #101E2C;
+    --color_text-tertiary: #ffffff;
+    --main_color-primary: #201a22;
+    /*--main_color-secundary: #dcd3dd;*/
+    --background-color: #FAFBFE;
+    --lowText_font_size: 16px;
+    --text_size_title: 40px;
+    --text_title_card: 24px;
+    --text_title_cardv2: 20px;
+    --text_paragraph: 20px;
+    --box_shadow-primary: 0px 6px 50px -20px rgba(0,0,0,0.2);
+}
+
+.mobile-header {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.mobile-header .logo img {
+    width: 80px; /* Ajusta el tamaño del logo según tus necesidades */
+}
+
+.menu-toggle .menu-checkbox {
+    display: none;
+}
+
+.menu-toggle .menu-icon {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu-toggle .menu-icon span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: var(--color_text-secundary);
+    margin: 6px 0;
+    transition: background-color 0.3s ease;
+}
+
+.menu-toggle .menu-checkbox:checked ~ .mobile-nav {
+    display: block;
+}
+
+.mobile-nav {
+    display: none;
+    width: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mobile-nav ul li {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.mobile-nav ul li a {
+    color: var(--color_text-secundary);
+    font-size: var(--lowText_font_size);
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.mobile-nav ul li a:hover {
+    color: var(--color_text-primary);
+}
+
+/* menu hamburguesa*/
+.custom-menu .menu-icon {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.custom-menu .menu-icon span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: var(--color_text-secundary);
+    margin: 6px 0;
+    transition: background-color 0.3s ease;
+}
+
+.custom-menu .menu-toggle {
+    display: none;
+}
+
+.custom-menu .menu-toggle:checked ~ nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.custom-menu .menu-toggle:checked ~ .menu-icon span:nth-child(1),
+.custom-menu .menu-toggle:checked ~ .menu-icon span:nth-child(3) {
+    transform: rotate(45deg);
+}
+
+.custom-menu .menu-toggle:checked ~ .menu-icon span:nth-child(2) {
+    opacity: 0;
+}
+
+.custom-menu nav ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+}
+
+.custom-menu nav ul li {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.custom-menu nav ul li a {
+    color: var(--color_text-secundary);
+    font-size: var(--lowText_font_size);
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.custom-menu nav ul li a:hover {
+    color: var(--color_text-primary);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+
+/*Galeria*/
+
+.video-gallery {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.video-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+a:hover {
+    background-color: #fff;
+}
+
+.logo a {
+    background-color: #fff; /* Cambia el color del texto del enlace */
+    text-decoration: none; /* Quita la subrayado del enlace */
+}
+
+/* Estilos para los enlaces dentro de .video-item */
+.video-item a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#909732;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+

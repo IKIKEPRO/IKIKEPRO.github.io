@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de la Competencia de Running</title>
+    <link rel="stylesheet" href="../assets/css/trail.css">
+    <script src="../assets/javascript/cat13km.js"></script>
+
+ 
+
+    <!-- 18-29 H -->
+
+</head>
+<body>
+    <main>
+    <h1>TRAIL PAMPA PERDIZ 2023 </h1>
+
+        <!-- Barra de Distancias -->
+        <div class="navbar">
+            <a href="../cat13km/18-29H.html">DISTANCIA 13KM</a>
+            <a href="../cat22km/18-29H.html" style="background-color: #909732; color: #ffffff;">DISTANCIA 22KM</a>
+            <a href="../cat42km/18-29H.html">DISTANCIA 42KM</a>
+            <!-- Agrega más enlaces para otras categorías si es necesario -->
+        </div>
+        <p></p>
+            <!-- Categorías HOMBRES Distancia 22km -->
+            <div class="navbar">
+                <!--<a href="../cat13km/13Kgeneral.html">General</a>-->
+                <a href="../cat22km/18-29H.html">18-29H </a>
+                <a href="../cat22km/30-39H.html" style="background-color: #909732; color: #ffffff;">30-39H</a>
+                <a href="../cat22km/40-49H.html">40-49H</a>
+                <a href="../cat22km/50+H.html">50 +H</a>
+            </div>
+
+            <!-- Categorías MUJERES Distancia 22km -->
+            <div class="navbar">
+                <a href="../cat22km/18-29M.html">18-29M </a>
+                <a href="../cat22km/30-39M.html">30-39M</a>
+                <a href="../cat22km/40-49M.html">40-49M</a>
+                <a href="../cat22km/50+M.html">50 +M</a>
+            </div>
+
+        <p id="presiona">Ve tu video en meta <a href="../videos.html" style="font-weight: bold; color: #909732;">aquí</a></p>
+    
+    <!-- Tabla de resultados de todas las categorías -->
+    <table id="categoria-todas">
+        <thead>
+            <tr>
+                <th>Posición</th>
+                <th>Dorsal</th>
+                <th>Nombre del Corredor</th>
+                <th>País</th>
+                <th>Tiempo Total</th>
+                <th>Categoría</th>
+                <th>Video Meta</th>
+            </tr>
+        </thead>
+        <tbody>   <!-- CATEGORÍA 30-39 H -->
+            <tr class="corredor"  onclick="mostrarDetalles(0)"> <!-- NOMBRE 1° -->
+                <td>14</td> <!-- Dejar igual -->
+                <td>146</td> <!-- Colocar numero de Numeracion -->
+                <td class="nombre-corredor">Hector Perez</td> 
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">4:20:03</td>  <!-- TIEMPO 1° -->
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Corredor 2 -->
+            <tr class="corredor" onclick="mostrarDetalles(1)">
+                <td>11</td>
+                <td>147</td>
+                <td class="nombre-corredor">Pablo González Villegas</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">3:42:50</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Corredor 3 -->
+            <tr class="corredor" onclick="mostrarDetalles(2)">
+                <td>3</td>
+                <td>149</td>
+                <td class="nombre-corredor">Juan Araneda Velazquez</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">2:48:15</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Corredor 4 -->
+            <tr class="corredor" onclick="mostrarDetalles(3)">
+                <td>7</td>
+                <td>150</td>
+                <td class="nombre-corredor">Fernando Enrique Alvarez Balbontin</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">3:26:42</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Corredor 6 -->
+            <tr class="corredor" onclick="mostrarDetalles(5)">
+                <td>1</td>
+                <td>152</td>
+                <td class="nombre-corredor">Eduardo Cardenas</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">2:38:28</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Corredor 7 -->
+            <tr class="corredor" onclick="mostrarDetalles(6)">
+                <td>9</td>
+                <td>153</td>
+                <td class="nombre-corredor">Gabriel Pichinao Aqueveque</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">3:28:18</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Corredor 10 -->
+            <tr class="corredor" onclick="mostrarDetalles(9)">
+                <td>2</td>
+                <td>156</td>
+                <td class="nombre-corredor">Rafael Donoso Vásquez</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">2:45:15</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Corredor 11 -->
+            <tr class="corredor" onclick="mostrarDetalles(10)">
+                <td>10</td>
+                <td>157</td>
+                <td class="nombre-corredor">Lorenzo Tapia Escobar</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">3:42:12</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Corredor 12 -->
+            <tr class="corredor" onclick="mostrarDetalles(11)">
+                <td>16</td>
+                <td>158</td>
+                <td class="nombre-corredor">Dongwann Kim</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">4:49:24</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle"  style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Corredor 13 -->
+            <tr class="corredor" onclick="mostrarDetalles(12)">
+                <td>8</td>
+                <td>159</td>
+                <td class="nombre-corredor">Dante Morelli Olivera</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">3:27:15</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Corredor 14 -->
+            <tr class="corredor" onclick="mostrarDetalles(13)">
+                <td>6</td>
+                <td>160</td>
+                <td class="nombre-corredor">Ivo Alexander Paez Estroz</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">3:04:16</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Corredor 15 -->
+            <tr class="corredor" onclick="mostrarDetalles(14)">
+                <td>4</td>
+                <td>161</td>
+                <td class="nombre-corredor">Oscar Buldres Cartes</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">2:49:50</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Corredor 16 -->
+            <tr class="corredor" onclick="mostrarDetalles(15)">
+                <td>5</td>
+                <td>162</td>
+                <td class="nombre-corredor">Pablo Cofre Benavides</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">2:58:02</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            <!-- Corredor 18 -->
+            <tr class="corredor" onclick="mostrarDetalles(17)">
+                <td>13</td>
+                <td>164</td>
+                <td class="nombre-corredor">Angelo Bugueño Zúñiga</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">4:16:54</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Corredor 19 -->
+            <tr class="corredor" onclick="mostrarDetalles(18)">
+                <td>17</td>
+                <td>165</td>
+                <td class="nombre-corredor">Sergio Diego Pérez Fraga</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">5:15:45</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Corredor 20 -->
+            <tr class="corredor" onclick="mostrarDetalles(19)">
+                <td>12</td>
+                <td>166</td>
+                <td class="nombre-corredor">Víctor Delgado</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">3:52:27</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Corredor 21 -->
+            <tr class="corredor" onclick="mostrarDetalles(20)">
+                <td>0</td>
+                <td>167</td>
+                <td class="nombre-corredor">Cristian Campos</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">-----</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Corredor 22 -->
+            <tr class="corredor" onclick="mostrarDetalles(21)">
+                <td>15</td>
+                <td>168</td>
+                <td class="nombre-corredor">Alejandro Mendoza Gallardo</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">4:22:00</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            <!-- Corredor 17 -->
+            <tr class="corredor" onclick="mostrarDetalles(16)">
+                <td>0</td>
+                <td>163</td>
+                <td class="nombre-corredor">Cristian Farías</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">--------</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            <!-- Corredor 5 -->
+            <tr class="corredor" onclick="mostrarDetalles(4)">
+                <td>0</td>
+                <td>151</td>
+                <td class="nombre-corredor">Gabriel Israel Llancalahuen Aciares</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">------</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            <!-- Corredor 8 -->
+            <tr class="corredor" onclick="mostrarDetalles(7)">
+                <td>0</td>
+                <td>154</td>
+                <td class="nombre-corredor">Gary Fernandez Rivera</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">-------</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+            <!-- Corredor 9 -->
+            <tr class="corredor" onclick="mostrarDetalles(8)">
+                <td>0</td>
+                <td>155</td>
+                <td class="nombre-corredor">Jorge Tobar</td>
+                <td><img src="../assets/images/About/banderachile.png" class="bandera"></td>
+                <td class="tiempo-total">-------</td>
+                <td>30-39 Hombres</td>
+                <td><a href="https://www.ejemplo.com">Presiona para ver video</a></td>
+            </tr>
+            <tr class="detalles" style="display: none">
+                <td colspan="9">
+                    <div class="detalles-contenido">
+                        <p>País:<img src="../assets/images/About/banderachile.png" class="bandera-detalle" style="width: 30px; height: auto;padding-left: 10px;"></p>
+                        <p>Categoría: 30-39 Hombres</p>
+                        <p>Video Meta: <a href="https://www.ejemplo.com">Presiona para ver video</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            </table>
+</body>
+</html>
